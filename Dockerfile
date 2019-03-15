@@ -7,5 +7,5 @@ RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:octave/stable
 RUN apt-get update
-RUN apt-get install -y octave
+RUN apt-get install -y octave liboctave-dev
 
